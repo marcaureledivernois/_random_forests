@@ -18,6 +18,5 @@ def load_csv(filename):
             dataset.append(row)
     return dataset
 
-
 filename = 'german.data-numeric'
 dataset = load_csv(filename)
