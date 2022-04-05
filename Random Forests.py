@@ -9,8 +9,7 @@ def load_csv(filename):
     #open it as a readable file
     with open(filename, 'r') as file:
         #init the csv reader
-		csv_reader = reader(file)
-        #for every row in the dataset
+        csv_reader = reader(file)
         for row in csv_reader:
             if not row:
                 continue
