@@ -27,7 +27,7 @@ The trees are grown from different subsets of the training data by a bootstrap a
 (Breiman, 1996) which ensures the diversity of the trees and minimizes the similarities between
 them. In practice, we randomly select (with replacement = a datapoint can be drawn multiple times) 
 subsets from the training set, then train a bunch of decision trees.
-The final prediction is an average of the predictions of every decision tree (= ensemble method)
+The final prediction is an average (or majority vote) of the predictions of every decision tree (= ensemble method)
 
 
 ## Credits
