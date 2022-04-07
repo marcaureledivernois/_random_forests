@@ -15,6 +15,7 @@ trees using the subsets and then it combines the subtrees (ensemble method).
 * ramdomforest_sklearn.py : contains grid search parameters and optimal RF for iris classification (coded with sklearn)
 * decisiontree_sklearn.py : grid search and optimal DT for iris classificaiton (with sklearn). 
 Also contains performance, features importance and precision recall curves using scikit-plot
+* Random Forests.py : contains random forest code from scratch. Needs an update on the dataset to run.
 
 # Gini index
 
