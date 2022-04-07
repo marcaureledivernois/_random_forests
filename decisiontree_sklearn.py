@@ -10,6 +10,10 @@ from sklearn.model_selection import GridSearchCV
 import scikitplot as skplt
 import matplotlib.pyplot as plt
 
+'''
+Decision tree with sklearn
+'''
+
 #---------------------- Load Dataset
 iris = datasets.load_iris()
 iris_df=pd.DataFrame(iris.data)
@@ -83,4 +87,4 @@ print('Feature importances : ' , optimal_tree.feature_importances_)
 skplt.estimators.plot_feature_importances(optimal_tree, feature_names=['petal length', 'petal width','sepal length', 'sepal width'])
 plt.show()
 
-#----------------------- Plot Ootimal Tree
+#----------------------- Plot Optimal Tree
