@@ -12,6 +12,10 @@ That is the DT can “memorize” the training set. The point of Random Forest i
 It does this by creating random subsets of the features and building smaller
 trees using the subsets and then it combines the subtrees (ensemble method).
 
+* ramdomforest_sklearn.py : contains grid search parameters and optimal RF for iris classification (coded with sklearn)
+* decisiontree_sklearn.py : grid search and optimal DT for iris classificaiton (with sklearn). 
+Also contains performance, features importance and precision recall curves using scikit-plot
+
 # Gini index
 
 If a data set D contains samples from C classes, gini index is defined as:
