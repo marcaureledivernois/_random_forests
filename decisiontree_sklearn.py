@@ -9,6 +9,7 @@ from sklearn import datasets
 from sklearn.model_selection import GridSearchCV
 import scikitplot as skplt
 import matplotlib.pyplot as plt
+import streamlit as st
 
 '''
 Decision tree with sklearn
@@ -88,3 +89,5 @@ skplt.estimators.plot_feature_importances(optimal_tree, feature_names=['petal le
 plt.show()
 
 #----------------------- Plot Optimal Tree
+
+st.write(print(confusion_matrix(y_test,y_pred)))
