@@ -90,4 +90,4 @@ plt.show()
 
 #----------------------- Plot Optimal Tree
 
-st.write(print(confusion_matrix(y_test,y_pred)))
+st.write(confusion_matrix(y_test,y_pred))
